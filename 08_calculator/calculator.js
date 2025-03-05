@@ -22,8 +22,8 @@ const power = function (num1, num2) {
 
 const factorial = function (num) {
   let fact = 1
-  for (let i = 1; i < num; i++) {
-    fact += i * fact
+  for (let i = 1; i <= num; i++) {
+    fact *= i
   };
   return fact;
 };
